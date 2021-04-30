@@ -1,0 +1,17 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1"><meta name=viewport content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1"><script src=./static/js/jquery.min.js></script><script src=./static/js/charting_library/charting_library.min.js></script><style>html,body{
+        min-height: 100%;
+      }
+      #mobile_icon_div{
+        display: none !important;
+      }</style><link href=./static/css/app.c35af5bc9c75ef7231566ffb9ceb8df0.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=./static/js/manifest.2e14a82c1a48b769be7b.js></script><script type=text/javascript src=./static/js/vendor.f8dda3bd97e61ac41bbc.js></script><script type=text/javascript src=./static/js/app.1aab206b476a379a2b8b.js></script></body><script>window.onload = function(){
+      getRem(750,100)
+    };
+    window.onresize = function(){
+      // 代表1rem=20px；
+      getRem(750,100)
+    };
+    function getRem(pwidth,prem){
+      var html = document.getElementsByTagName("html")[0];
+      var oWidth = document.body.clientWidth || document.documentElement.clientWidth;
+      html.style.fontSize = oWidth/pwidth*prem + "px";
+    }</script><script type=text/javascript src=https://js.cdn.aliyun.dcloud.net.cn/dev/uni-app/uni.webview.1.5.2.js></script></html>

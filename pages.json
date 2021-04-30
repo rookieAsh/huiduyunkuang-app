@@ -1,0 +1,534 @@
+{
+	"easycom": {
+	    "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ 
+		// ===============首页相关=================
+        {
+            "path" : "pages/index/index",
+            "style" : {
+				"navigationBarTitleText": "首页",
+				"navigationBarTextStyle": "black",
+				"bounce":"none",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+        },
+		{
+		    "path" : "pages/index/hintList",
+		    "style" : {
+				"navigationBarTitleText": "公告列表",
+				"navigationBarTextStyle": "black",
+				"bounce":"none"
+			}
+		},
+		{
+		    "path" : "pages/index/hintDetail",
+		    "style" : {
+				"navigationBarTitleText": "公告详情",
+				"navigationBarTextStyle": "black",
+				"bounce":"none"
+			}
+		},
+		{
+		    "path" : "pages/index/lhwk",
+		    "style" : {
+				"navigationBarTitleText": "联合挖矿",
+				"navigationBarTextStyle": "black",
+				"bounce":"none"
+			}
+		},
+		{
+		    "path" : "pages/index/syjs",
+		    "style" : {
+				"navigationBarTitleText": "计算器",
+				"navigationBarTextStyle": "black",
+				"bounce":"none"
+			}
+		},
+		{
+		    "path" : "pages/index/shandui",
+		    "style" : {
+				"navigationBarTitleText": "闪兑",
+				"navigationBarTextStyle": "black",
+				"bounce":"none",
+				"app-plus":{
+					// "titleNView":{
+					// 	"buttons": [
+					// 		{
+					// 		   "text": "闪兑记录",
+					// 		   "float": "right",
+					// 		   "fontSize": "12px",
+					// 		   "color": "#666",
+					// 		   "width": "70px"
+					// 		}
+					// 	]	
+					// }
+				}
+			}
+		},
+		{
+		    "path" : "pages/index/shanduiList",
+		    "style" : {
+				"navigationBarTitleText": "充币记录",
+				"navigationBarTextStyle": "black",
+				"bounce":"none"
+			}
+		},
+		{
+		    "path" : "pages/index/fhb",
+		    "style" : {
+				"navigationBarTitleText": "发红包",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"bounce":"none",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		},
+		{
+		    "path" : "pages/index/redPacket",
+		    "style" : {
+				"navigationBarTitleText": "发红包",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"bounce":"none",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		},
+		{
+		    "path" : "pages/index/posterShare",
+		    "style" : {
+				"navigationBarTitleText": "分享至微信",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+		    "path" : "pages/index/posterShare_an",
+		    "style" : {
+				"navigationBarTitleText": "poster",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"bounce":"none",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		},
+		{
+		    "path" : "pages/index/redEnvelope",
+		    "style" : {
+				"navigationBarTitleText": "发红包",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"bounce":"none"
+			}
+		},
+		{
+		    "path" : "pages/index/redEnvelope_pwd",
+		    "style" : {
+				"navigationBarTitleText": "发暗号红包",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"bounce":"none"
+			}
+		},
+		{
+		    "path" : "pages/index/redList",
+		    "style" : {
+				"navigationBarTitleText": "红包记录",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"bounce":"none"
+			}
+		},
+		{
+		    "path" : "pages/index/hdsq",
+		    "style" : {
+				"navigationBarTitleText": "灰度社区",
+				"navigationBarTextStyle": "black",
+				"bounce":"none"
+			}
+		},
+		{
+		    "path" : "pages/index/vedioShow",
+		    "style" : {
+				"navigationBarTitleText": "教程",
+				"navigationBarTextStyle": "black",
+				"bounce":"none"
+			}
+		},
+		{
+		    "path" : "pages/index/showInfo",
+		    "style" : {
+				"navigationBarTitleText": "",
+				"navigationBarTextStyle": "black",
+				"bounce":"none"
+			}
+		},
+		// ============钱包相关==============
+		{
+		    "path" : "pages/wallet/wallet",
+		    "style" : {
+				"navigationBarTitleText": "钱包",
+				"navigationBarTextStyle": "white",
+				"bounce":"none",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		},
+		{
+		    "path" : "pages/wallet/charge",
+		    "style" : {
+				"navigationBarTitleText": "充币",
+				"navigationBarTextStyle": "black",
+				"bounce":"none"
+				// "app-plus":{
+				// 	"titleNView":{
+				// 		"buttons": [
+				// 			{
+				// 			   "text": "充币记录",
+				// 			   "float": "right",
+				// 			   "fontSize": "12px",
+				// 			   "color": "#666",
+				// 			   "width": "70px"
+				// 			}
+				// 		]	
+				// 	}
+				// }
+			}
+		},
+		{
+		    "path" : "pages/wallet/chargeList",
+		    "style" : {
+				"navigationBarTitleText": "充币记录",
+				"navigationBarTextStyle": "black",
+				"bounce":"none"
+			}
+		},
+		{
+		    "path" : "pages/wallet/withdraw",
+		    "style" : {
+				"navigationBarTitleText": "提币",
+				"navigationBarTextStyle": "black",
+				"bounce":"none"
+				// "app-plus":{
+				// 	"titleNView":{
+				// 		"buttons": [
+				// 			{
+				// 			   "text": "提币记录",
+				// 			   "float": "right",
+				// 			   "fontSize": "12px",
+				// 			   "color": "#666",
+				// 			   "width": "70px"
+				// 			}
+				// 		]	
+				// 	}
+				// }
+			}
+		},
+		{
+		    "path" : "pages/wallet/withdrawList",
+		    "style" : {
+				"navigationBarTitleText": "提币记录",
+				"navigationBarTextStyle": "black",
+				"bounce":"none"
+			}
+		},
+		{
+		    "path" : "pages/wallet/transfer",
+		    "style" : {
+				"navigationBarTitleText": "划转",
+				"navigationBarTextStyle": "black",
+				"bounce":"none"
+				// "app-plus":{
+				// 	"titleNView":{
+				// 		"buttons": [
+				// 			{
+				// 			   "text": "划转记录",
+				// 			   "float": "right",
+				// 			   "fontSize": "12px",
+				// 			   "color": "#666",
+				// 			   "width": "70px"
+				// 			}
+				// 		]	
+				// 	}
+				// }
+			}
+		},
+		{
+		    "path" : "pages/wallet/transferList",
+		    "style" : {
+				"navigationBarTitleText": "划转记录",
+				"navigationBarTextStyle": "black",
+				"bounce":"none"
+			}
+		},
+		{
+		    "path" : "pages/wallet/record",
+		    "style" : {
+				"navigationBarTitleText": "USDT流水记录",
+				"navigationBarTextStyle": "black",
+				"bounce":"none"
+			}
+		},
+		{
+		    "path" : "pages/wallet/mineAward",
+		    "style" : {
+				"navigationBarTitleText": "挖矿账户收益",
+				"navigationBarTextStyle": "black",
+				"bounce":"none"
+			}
+		},
+		// ============矿机相关==============
+		{
+            "path" : "pages/market/market",
+            "style" : {
+				"enablePullDownRefresh": true,
+                "navigationBarTitleText": "矿机市场",
+				"bounce":"none",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus":{
+					"pullToRefresh": {
+						"support": true,
+						"style": "circle",
+						"color": "#FF891C",
+						"offset": "60px"
+					}
+				}
+            } 
+        },
+		{
+		    "path" : "pages/market/mineDetail",
+		    "style" : {
+		        "navigationBarTitleText": "矿机详情",
+				"bounce":"none"
+		    }  
+		},
+		{
+		    "path" : "pages/market/mineBuy",
+		    "style" : {
+		        "navigationBarTitleText": "填写订单",
+				"bounce":"none"
+		    }  
+		},
+		{
+		    "path" : "pages/market/pay",
+		    "style" : {
+		        "navigationBarTitleText": "支付订单",
+				"bounce":"none"
+		    }  
+		},
+		// ============我的相关==============
+		{
+            "path" : "pages/my/my",
+            "style" : {
+                "navigationBarTitleText": "我的",
+                "bounce":"none",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus":{
+					"titleNView":false
+				}
+            }   
+        },
+		{
+		    "path" : "pages/my/certification",
+		    "style" : {
+		        "navigationBarTitleText": "身份验证",
+				"bounce":"none"
+		    }  
+		},
+		{
+		    "path" : "pages/my/security",
+		    "style" : {
+		        "navigationBarTitleText": "账号安全",
+				"bounce":"none"
+		    }
+		},
+		{
+		    "path" : "pages/my/invite",
+		    "style" : {
+		        "navigationBarTitleText": "邀请好友",
+				"bounce":"none",
+				"app-plus":{
+					"titleNView":false
+				}
+		    }
+		},
+		{
+		    "path" : "pages/my/about",
+		    "style" : {
+		        "navigationBarTitleText": "关于我们",
+				"bounce":"none"
+		    }
+		},
+		{
+		    "path" : "pages/my/orders",
+		    "style" : {
+		        "navigationBarTitleText": "我的订单",
+				"bounce":"none"
+		    }
+		},
+		{
+		    "path" : "pages/my/privacy",
+		    "style" : {
+		        "navigationBarTitleText": "隐私条款",
+				"bounce":"none"
+		    }
+		},
+		{
+		    "path" : "pages/my/profile",
+		    "style" : {
+		        "navigationBarTitleText": "个人信息",
+				"bounce":"none"
+		    }
+		},
+		{
+		    "path" : "pages/my/agreement",
+		    "style" : {
+		        "navigationBarTitleText": "用户协议",
+				"bounce":"none"
+		    }
+		},
+		{
+		    "path" : "pages/my/coupon",
+		    "style" : {
+		        "navigationBarTitleText": "我的优惠券",
+				"bounce":"none"
+		    }
+		},
+		// ============云算力相关==============
+		{
+            "path" : "pages/power/power",
+            "style" : {
+                "navigationBarTitleText": "云算力",
+				"bounce":"none",
+				"app-plus":{
+					"titleNView":false
+				}
+            } 
+        },
+		{
+		    "path" : "pages/power/pay",
+		    "style" : {
+		        "navigationBarTitleText": "支付订单",
+				"bounce":"none"
+		    } 
+		},
+		{
+		    "path" : "pages/power/powerDetail",
+		    "style" : {
+		        "navigationBarTitleText": "算力详情",
+				"bounce":"none"
+		    } 
+		},
+		{
+		    "path" : "pages/power/lhDetail",
+		    "style" : {
+		        "navigationBarTitleText": "联合挖矿详情",
+				"bounce":"none"
+		    } 
+		},
+		{
+		    "path" : "pages/power/buyLh",
+		    "style" : {
+		        "navigationBarTitleText": "填写订单",
+				"bounce":"none"
+		    } 
+		},
+		{
+		    "path" : "pages/power/buyPower",
+		    "style" : {
+		        "navigationBarTitleText": "填写订单",
+				"bounce":"none"
+		    } 
+		},
+		// ============登录注册相关==============
+		{
+		    "path" : "pages/login/login",
+		    "style" : {
+		        "navigationBarTitleText": "",
+		        "bounce":"none"
+		    }
+		},
+		{
+		    "path" : "pages/login/reg",
+		    "style" : {
+		        "navigationBarTitleText": "",
+		        "bounce":"none"
+		    }  
+		},
+		{
+		    "path" : "pages/login/forget",
+		    "style" : {
+		        "navigationBarTitleText": "",
+		        "bounce":"none"
+		    }  
+		},
+		{
+		    "path" : "pages/login/setTradePwd",
+		    "style" : {
+		        "navigationBarTitleText": "设置交易密码",
+		        "bounce":"none"
+		    }  
+		},
+		{
+		    "path" : "pages/login/changePwd",
+		    "style" : {
+		        "navigationBarTitleText": "修改登录密码",
+		        "bounce":"none"
+		    }  
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "灰度云矿",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#fff"
+	},
+	"tabBar": {
+		"color": "#B0A9A4",
+		"selectedColor": "#FF891C",
+		"borderStyle": "black",
+		"backgroundColor": "#fff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/tabbar/1.png",
+				"selectedIconPath": "static/images/tabbar/2.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/market/market",
+				"iconPath": "static/images/tabbar/3.png",
+				"selectedIconPath": "static/images/tabbar/4.png",
+				"text": "矿机"
+			},
+			
+			{
+				"pagePath": "pages/power/power",
+				"iconPath": "static/images/tabbar/5.png",
+				"selectedIconPath": "static/images/tabbar/6.png",
+				"text": "云算力"
+			},
+			{
+				"pagePath": "pages/wallet/wallet",
+				"iconPath": "static/images/tabbar/7.png",
+				"selectedIconPath": "static/images/tabbar/8.png",
+				"text": "钱包"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/images/tabbar/9.png",
+				"selectedIconPath": "static/images/tabbar/10.png",
+				"text": "我的"
+			}
+		]	
+	 }
+}
